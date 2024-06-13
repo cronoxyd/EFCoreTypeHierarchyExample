@@ -29,7 +29,7 @@ namespace EFCoreTypeHierarchyExample.Common.Data
                 .UseTphMappingStrategy()
                 .HasDiscriminator(vehicle => vehicle.Type)
                 .HasValue<Car>(VehicleType.Car)
-                .HasValue<Car>(VehicleType.Truck);
+                .HasValue<Truck>(VehicleType.Truck);
 
             modelBuilder.Entity<Car>().HasData(
                 new Car { Name = "Golf 6", VehicleIdentificationNumber = "IUKDGHFKLSDFSD3123" },
