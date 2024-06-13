@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreTypeHierarchyExample.Common", "EFCoreTypeHierarchyExample.Common\EFCoreTypeHierarchyExample.Common.csproj", "{248D540C-33FC-4CFD-8EF0-7488234D6842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreTypeHierarchyExample.Console", "EFCoreTypeHierarchyExample.Console\EFCoreTypeHierarchyExample.Console.csproj", "{349E0B12-776F-40CA-BC07-10967F86FC43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{248D540C-33FC-4CFD-8EF0-7488234D6842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248D540C-33FC-4CFD-8EF0-7488234D6842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248D540C-33FC-4CFD-8EF0-7488234D6842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248D540C-33FC-4CFD-8EF0-7488234D6842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349E0B12-776F-40CA-BC07-10967F86FC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349E0B12-776F-40CA-BC07-10967F86FC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349E0B12-776F-40CA-BC07-10967F86FC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349E0B12-776F-40CA-BC07-10967F86FC43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
