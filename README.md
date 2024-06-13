@@ -4,7 +4,7 @@ This is a minimal example demonstrating the problem discussed in issue
 [Entity Framework Core](https://github.com/dotnet/efcore) repository.
 
 ## Steps to reproduce the issue
-* Either  create a migration using the dotnet tool in the `EFCoreTypeHierarchyExample.Common` folder:
+* Either create a migration using the dotnet tool in the `EFCoreTypeHierarchyExample.Common` folder:
     ```
     dotnet ef migrations add Init
     ```
