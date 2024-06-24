@@ -9,10 +9,11 @@ internal class Program
     {
         var context = new EFCoreTypeHierarchyExampleContext();
         var allVehicles = await context.Set<Vehicle>().ToListAsync();
+        Console.WriteLine($"{allVehicles.Count} vehicles");
         
         foreach(var vehicle in allVehicles)
         {
-            Console.WriteLine($"Vehicle \"{vehicle.Name}\" is a \"{vehicle.Type}\" (VIN {vehicle.VehicleIdentificationNumber}\")");
+            Console.WriteLine($"Vehicle \"{vehicle.Name}\" is a {vehicle.Type} (VIN {vehicle.VehicleIdentificationNumber})");
         }
 
         return 0;
