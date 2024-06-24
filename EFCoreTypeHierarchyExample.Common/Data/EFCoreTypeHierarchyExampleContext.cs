@@ -32,13 +32,13 @@ namespace EFCoreTypeHierarchyExample.Common.Data
                 .HasValue<Truck>(VehicleType.Truck);
 
             modelBuilder.Entity<Car>().HasData(
-                new Car { Name = "Golf 6", VehicleIdentificationNumber = "IUKDGHFKLSDFSD3123" },
-                new Car { Name = "Chrysler Fifth Avenue", VehicleIdentificationNumber = "SDFKLDSHGSDFG241" }
+                new Car { Id = Guid.NewGuid(), Name = "Golf 6", VehicleIdentificationNumber = "IUKDGHFKLSDFSD3123" },
+                new Car { Id = Guid.NewGuid(), Name = "Chrysler Fifth Avenue", VehicleIdentificationNumber = "SDFKLDSHGSDFG241" }
             );
 
             modelBuilder.Entity<Truck>().HasData(
-                new Truck { Name = "Mercedes Actros", VehicleIdentificationNumber = "DSKJFGHSDKGDFS231234"},
-                new Truck { Name = "Iveco Stralis", VehicleIdentificationNumber = "HKLSDFBHDS389423"}
+                new Truck { Id = Guid.NewGuid(), Name = "Mercedes Actros", VehicleIdentificationNumber = "DSKJFGHSDKGDFS231234"},
+                new Truck { Id = Guid.NewGuid(), Name = "Iveco Stralis", VehicleIdentificationNumber = "HKLSDFBHDS389423"}
             );
         }
     }
