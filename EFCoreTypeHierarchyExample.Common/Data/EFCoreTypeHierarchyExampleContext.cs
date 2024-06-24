@@ -21,7 +21,7 @@ namespace EFCoreTypeHierarchyExample.Common.Data
                 .Property(vehicle => vehicle.Type)
                 .HasConversion(
                     v => v.ToString(),
-                    v => Enum.Parse<VehicleType>(v)
+                    v => Enum.Parse<VehicleType>(v!)
                 );
 
             modelBuilder
