@@ -1,6 +1,6 @@
 namespace EFCoreTypeHierarchyExample.Common.Models
 {
-    public class Vehicle
+    public abstract class Vehicle
     {
         public Guid Id { get; set; }
         public string Name { get; set; } = string.Empty;
